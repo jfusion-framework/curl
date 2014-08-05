@@ -15,5 +15,6 @@
         "psr-4": {
             "JFusion\\Curl\\": "src/"
         }
-    }
+    },
+    "minimum-stability" : "dev"
 }
