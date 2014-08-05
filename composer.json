@@ -7,9 +7,13 @@
     "license": "GPL-2.0+",
     "require": {
         "php": ">=5.3.10",
-        "jfusion/core": ">=0.1",
-        "jfusion/dslo": ">=0.1",
         "joomla/language": "~1.0"
+    },
+    "require-dev": {
+        "jfusion/core": ">=0.1"
+    },
+    "suggest": {
+        "jfusion/core": "If you want to Allow option for cross domain login"
     },
     "autoload": {
         "psr-4": {
