@@ -1,0 +1,19 @@
+{
+    "name": "jfusion/curl",
+    "type": "jfusion-framework",
+    "description": "JFusion Framework curl related",
+    "keywords": ["jfusion", "framework", "curl"],
+    "homepage": "https://github.com/jfusion-framework/curl",
+    "license": "GPL-2.0+",
+    "require": {
+        "php": ">=5.3.10",
+        "jfusion/core": ">=0.1",
+        "jfusion/dslo": ">=0.1",
+        "joomla/language": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JFusion\\Curl\\": "src/"
+        }
+    }
+}
