@@ -10,7 +10,7 @@
         "joomla/language": "~1.0"
     },
     "require-dev": {
-        "jfusion/core": ">=0.1"
+        "jfusion/core": "~1.0"
     },
     "suggest": {
         "jfusion/core": "If you want to Allow option for cross domain login"
@@ -19,6 +19,5 @@
         "psr-4": {
             "JFusion\\Curl\\": "src/"
         }
-    },
-    "minimum-stability" : "dev"
+    }
 }
